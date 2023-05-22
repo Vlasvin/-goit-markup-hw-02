@@ -1,14 +1,38 @@
-.button {
+:root .button {
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 .button:hover {
   background-color: #404bbf;
 }
-.logo {
+.button-portfolio {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #f4f4fd;
 }
-.link:active {
+.button-portfolio:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.logo {
+  color: #2e2f42;
+}
+.link:focus {
   color: #404bbf;
 }
 .link:hover {
@@ -18,27 +42,73 @@
   font-weight: 800;
   color: #f4f4fd;
 }
-.link-head {
-  font-weight: 800;
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.link-head {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link-decor {
+  text-decoration: none;
+}
+.link-contact {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link-contact:hover {
+  color: #404bbf;
+}
+.link-contact:focus {
+  color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
-.h1 {
+.head1 {
   font-weight: 700;
   font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.navigation {
-  font-weight: 500;
+.list {
+  list-style: none;
 }
-.h3 {
+.head3 {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.head2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .footer {
   background-color: #2e2f42;
@@ -47,7 +117,29 @@ body {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .section1 {
   background-color: #2e2f42;
+}
+.contact {
+  font-style: normal;
+}
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  background-color: #ffffff;
+}
+.link-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-footer {
+  color: #f4f4fd;
 }
