@@ -11,6 +11,9 @@
 .button:hover {
   background-color: #404bbf;
 }
+.button:focus {
+  background-color: #404bbf;
+}
 .button-portfolio {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
@@ -32,17 +35,17 @@
 .logo {
   color: #2e2f42;
 }
-.link:focus {
+.link-nav:focus {
   color: #404bbf;
 }
-.link:hover {
+.link-nav:hover {
   color: #404bbf;
 }
 .link-logo {
   font-weight: 800;
   color: #f4f4fd;
 }
-.link {
+.link-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -58,7 +61,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.link-decor {
+.link {
   text-decoration: none;
 }
 .link-contact {
@@ -78,7 +81,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.head1 {
+.title-main {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -95,14 +98,14 @@ body {
 .list {
   list-style: none;
 }
-.head3 {
+.title-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.head2 {
+.title-two {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -119,7 +122,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section1 {
+.section {
   background-color: #2e2f42;
 }
 .contact {
