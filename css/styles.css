@@ -93,10 +93,16 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+/* Спробував прибрати   color: #434455; 
+не проходить перевірку, пише (Для параграфа в класі 
+задано стиль color: в який записана css змінна зі 
+значенням #434455 для визначення кольору тексту)
+ */
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .list {
   list-style: none;
