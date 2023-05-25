@@ -1,5 +1,6 @@
 :root {
-  --logo_color: blue;
+  --text-color: #434455;
+  --background-color: #ffffff;
 }
 
 .button {
@@ -82,8 +83,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 .title-main {
   font-weight: 700;
@@ -93,16 +94,11 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-/* Спробував прибрати   color: #434455; 
-не проходить перевірку, пише (Для параграфа в класі 
-задано стиль color: в який записана css змінна зі 
-значенням #434455 для визначення кольору тексту)
- */
 .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 .list {
   list-style: none;
